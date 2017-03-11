@@ -6,7 +6,7 @@
     "email": "rusith@mail.com",
     "phone": "+94772886223",
     "website": "https://rusith.github.io",
-    "summary": "I am a sofware engineer who enjoy coding and learning new things",
+    "summary": "I am a sofware engineer by prefession. I enjoy coding and like to learn new things.",
     "location": {
       "address": "301/wavinna,palapathwela, matale",
       "postalCode": "21000",
@@ -34,7 +34,7 @@
   },
   "interests": [
     {
-      "name": "software engineering",
+      "name": "Software engineering",
       "keywords": [
         "OOP"
       ]
@@ -43,7 +43,13 @@
       "name": "Artificial intelligence",
       "keywords": [
       ]
-    }
+    },
+    {
+      "name": "Programming",
+      "keywords": [
+        "OOP"
+      ]
+    },
   ],
   "skills": [
     {
