@@ -1,57 +1,46 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
-    "label": "Student",
-    "picture": "https://techfolios.github.io/template/images/molly.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2018.",
+    "name": "Shanaka Rusith",
+    "label": "Software Engineer",
+    "picture": "https://rusith.github.io/images/rusith.png",
+    "email": "rusith@mail.com",
+    "phone": "+94772886223",
+    "website": "https://rusith.github.io",
+    "summary": "I am a sofware engineer who enjoy coding and learning new things",
     "location": {
-      "address": "",
-      "postalCode": "96822",
-      "city": "Honolulu",
-      "countryCode": "USA",
-      "region": "Hawaii"
+      "address": "301/wavinna,palapathwela, matale",
+      "postalCode": "21000",
+      "city": "Matale",
+      "countryCode": "Sri lanka",
+      "region": "Sri lanka"
     },
     "profiles": [
       {
         "network": "github",
         "username": "mmaluhia",
-        "url": "http://github.com/changeme"
+        "url": "http://github.com/rusith"
       },
       {
         "network": "linkedin",
-        "username": "mollymaluhia",
-        "url": "http://linkedin.com/in/changeme"
+        "username": "shanaka-rusith-12869710a",
+        "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
       },
       {
         "network": "twitter",
-        "username": "mollymal",
+        "username": "shanaka_rusith",
         "url": "http://twitter.com/changeme"
-      },
-      {
-        "network": "instagram",
-        "username": "molly",
-        "url": "http://instagram.com/changeme"
       }
     ]
   },
   "interests": [
     {
-      "name": "internet of things",
+      "name": "software engineering",
       "keywords": [
-        "Arduino",
-        "TI MSP430"
+        "OOP"
       ]
     },
     {
-      "name": "data mining",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "artificial intelligence",
+      "name": "Artificial intelligence",
       "keywords": [
       ]
     }
@@ -61,32 +50,33 @@
       "name": "Languages and Frameworks",
       "level": "",
       "keywords": [
+        "C#",
+        "Javascript",
+        "Typescript",
+        "T-SQL",
+        "PHP"
         "C",
         "C++",
         "Java",
-        "Javascript",
         "Assembly",
-        "Common Lisp"
       ]
     },
     {
       "name": "Toolsets/OS",
       "level": "",
       "keywords": [
-        "MacOS",
+        "Windows",
         "Ubuntu",
-        "Git/GitHub",
-        "g++",
-        "TI LaunchPad"
+        "Git/GitHub"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
-      "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "institution": "British Computer Society",
+      "area": "Information Technology",
+      "studyType": "PGD",
+      "startDate": "2015-5-10",
       "endDate": "Present",
       "gpa": "",
       "courses": [
@@ -94,32 +84,30 @@
     }
   ],
   "work": [
-    {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+        {
+      "company": "Fingertips Solutions",
+      "position": "Developer - Intern",
+      "website": "http://www.fingertipslanka.com/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-08-01",
+      "summary": "I was a developer intern",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
+        "Troubleshoot software, Make software components"
       ]
     },
     {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
+      "company": "Bourke Technologies",
+      "position": "Software Engineer",
+      "website": "http://www.bourketechnologies.com/",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Lead software engineer of Bourke technologies",
       "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Create Portal Systems, Ticketing Systems, Order processing systems"
       ]
     }
   ],
-  "volunteer": [
+  /*"volunteer": [
     {
       "organization": "Center for Renewable Energy and Island Sustainability",
       "website": "http://manoa.hawaii.edu/reis",
@@ -159,7 +147,7 @@
       "awarder": "University of Hawaii Micromouse Competition",
       "summary": "My team won first place in 2015.  See my portfolio site for more details."
     }
-  ],
+  ],*/
   "references": [
     {
       "name": "Available upon request",
