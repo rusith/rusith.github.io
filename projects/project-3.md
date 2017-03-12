@@ -11,6 +11,6 @@ labels:
   - CodeGeneration
   - SQL Server
   - Windows
-summary: CGen is a Code generator for .Net CGen can generate complate data access layer from a database
+summary: CGen is a Code generator for .Net CGen can generate complate data access layer from a database. Structure and technology of the project was changed time to time currently i am working on a final Structure with advanced features and single file model.
 projecturl: https://github.com/rusith/CGen
 ---
