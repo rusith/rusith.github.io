@@ -1,15 +1,18 @@
 ---
 layout: project
 type: project
-image: images/genius.png
-title: Genius
+image: images/rush.png
+title: Rush
 permalink: projects/micromouse
 date: 2015
 labels:
-  - C++
-  - QT
-summary: Genius monitors system clipboard and saves its content. and it provides 2 interfaces to select items from the history. Saved clipboard can be later copied and pasted directly into any application. Clipboard data saved into the history cannot change later. and Genius dose not change or edit any data. clipboard data is restored without changing a single bit 
-projecturl: https://github.com/rusith/genius
+  - C#
+  - .Net
+  - AudioManager
+  - WindowsForms
+  - Windows
+summary: Rush is a simple tool that will allow you to organize your music files by moving, renaming, and placing them into the directory . rush can copy files from different locations and place them in an 1 destination folder and organize in a folder structure. you can specify the folder structure and naming rules of files. Rush will copy files and rename files as you want. no files will harmed . during the operation. rush supports most popular file types . supported file types : mp3,m4a,aac,falc,ogg,wma 
+projecturl: https://github.com/rusith/Rush
 ---
 
 
