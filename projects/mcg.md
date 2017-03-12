@@ -11,6 +11,6 @@ labels:
   - Windows
   - WPF
   - Dapper
-summary: This Project was started as an experimental project to generate complete data access layer between an SQL Server database .Net application. after few months became a working solution to the problem.
+summary: This Project was started as an experimental project to generate complete data access layer between an SQL Server database and a .Net application. after few months the project became a working solution to the problem.
 projecturl: https://github.com/rusith/MyCodeGenerator
 ---
