@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://github.com/rusith/genius/blob/gh-pages/imgs/logo.png
+image: images/genius.png
 title: Genius
 permalink: projects/micromouse
 date: 2015
