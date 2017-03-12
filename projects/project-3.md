@@ -4,10 +4,10 @@ type: project
 image: images/cgen.png
 title: CGen
 permalink: projects/cgen
-date: 2016 - 2017
+date: 2017
 labels:
   - C#
-  - T-SQL
+  - T SQL
   - CodeGeneration
   - SQL Server
   - Windows
