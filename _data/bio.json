@@ -1,122 +1,117 @@
 {
-  "basics": {
-    "name": "Shanaka Rusith",
-    "label": "Software Engineer",
-    "picture": "https://rusith.github.io/images/rusith.jpg",
-    "email": "rusith@mail.com",
-    "phone": "+94772886223",
-    "website": "https://rusith.github.io",
-    "summary": "I am a sofware engineer by prefession. I enjoy coding and like to learn new things.",
-    "location": {
-      "address": "301/wavinna,palapathwela, matale",
-      "postalCode": "21000",
-      "city": "Matale",
-      "countryCode": "Sri lanka",
-      "region": "Sri lanka"
+    "basics": {
+        "name": "Shanaka Rusith",
+        "label": "Software Engineer",
+        "picture": "https://rusith.github.io/images/rusith.jpg",
+        "email": "rusith@mail.com",
+        "phone": "+94772886223",
+        "website": "https://rusith.github.io",
+        "summary": "I am a sofware engineer by prefession.I enjoy coding and like to learn new things.",
+        "location": {
+            "address": "301/wavinna,palapathwela, matale",
+            "postalCode": "21000",
+            "city": "Matale",
+            "countryCode": "Sri lanka",
+            "region": "Sri lanka"
+        },
+        "profiles": [{
+                "network": "github",
+                "username": "mmaluhia",
+                "url": "http://github.com/rusith"
+            },
+            {
+                "network": "linkedin",
+                "username": "shanaka-rusith-12869710a",
+                "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
+            },
+            {
+                "network": "twitter",
+                "username": "shanaka_rusith",
+                "url": "http://twitter.com/shanaka_rusith"
+            },
+            {
+                "network": "facebook",
+                "username": "shanaka.rusith",
+                "url": "http://facebook.com/shanaka.rusith"
+            }
+        ]
     },
-    "profiles": [
-      {
-        "network": "github",
-        "username": "mmaluhia",
-        "url": "http://github.com/rusith"
-      },
-      {
-        "network": "linkedin",
-        "username": "shanaka-rusith-12869710a",
-        "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
-      },
-      {
-        "network": "twitter",
-        "username": "shanaka_rusith",
-        "url": "http://twitter.com/changeme"
-      }
-    ]
-  },
-  "interests": [
-    {
-      "name": "Software engineering",
-      "keywords": [
-        "OOP"
-      ]
-    },
-    {
-      "name": "Artificial intelligence",
-      "keywords": [
-      ]
-    },
-    {
-      "name": "Programming",
-      "keywords": [
-        "OOP"
-      ]
-    },
-  ],
-  "skills": [
-    {
-      "name": "Languages and Frameworks",
-      "level": "",
-      "keywords": [
-        "C#",
-        "Javascript",
-        "Typescript",
-        "T-SQL",
-        "PHP",
-        "C",
-        "C++",
-        "Java",
-        "Assembly",
-      ]
-    },
-    {
-      "name": "Toolsets/OS",
-      "level": "",
-      "keywords": [
-        "Windows",
-        "Ubuntu",
-        "Git/GitHub"
-      ]
-    }
-  ],
-  "education": [
-    {
-      "institution": "British Computer Society",
-      "area": "Information Technology",
-      "studyType": "PGD",
-      "startDate": "2015-5-10",
-      "endDate": "Present",
-      "gpa": "",
-      "courses": [
-      ]
-    }
-  ],
-  "work": [
+    "interests": [{
+            "name": "Software engineering",
+            "keywords": [
+                "OOP"
+            ]
+        },
         {
-      "company": "Fingertips Solutions",
-      "position": "Developer - Intern",
-      "website": "http://www.fingertipslanka.com/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-08-01",
-      "summary": "I was a developer intern",
-      "highlights": [
-        "Troubleshoot software, Make software components"
-      ]
-    },
-    {
-      "company": "Bourke Technologies",
-      "position": "Software Engineer",
-      "website": "http://www.bourketechnologies.com/",
-      "startDate": "2015-08-01",
-      "endDate": "Present",
-      "summary": "Lead software engineer of Bourke technologies",
-      "highlights": [
-        "Create Portal Systems, Ticketing Systems, Order processing systems"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Available upon request",
-      "reference": ""
-    }
-  ]
+            "name": "Artificial intelligence",
+            "keywords": []
+        },
+        {
+            "name": "Programming",
+            "keywords": [
+                "OOP"
+            ]
+        },
+    ],
+    "skills": [{
+            "name": "Languages and Frameworks",
+            "level": "",
+            "keywords": [
+                "C#",
+                "Javascript",
+                "Typescript",
+                "T-SQL",
+                "PHP",
+                "C",
+                "C++",
+                "Java",
+                "Assembly",
+            ]
+        },
+        {
+            "name": "Toolsets/OS",
+            "level": "",
+            "keywords": [
+                "Windows",
+                "Ubuntu",
+                "Git/GitHub"
+            ]
+        }
+    ],
+    "education": [{
+        "institution": "British Computer Society",
+        "area": "Information Technology",
+        "studyType": "PGD",
+        "startDate": "2015-5-10",
+        "endDate": "Present",
+        "gpa": "",
+        "courses": []
+    }],
+    "work": [{
+            "company": "Fingertips Solutions",
+            "position": "Developer - Intern",
+            "website": "http://www.fingertipslanka.com/",
+            "startDate": "2015-01-01",
+            "endDate": "2016-08-01",
+            "summary": "I was a developer intern",
+            "highlights": [
+                "Troubleshoot software, Make software components"
+            ]
+        },
+        {
+            "company": "Bourke Technologies",
+            "position": "Software Engineer",
+            "website": "http://www.bourketechnologies.com/",
+            "startDate": "2015-08-01",
+            "endDate": "Present",
+            "summary": "Lead software engineer of Bourke technologies",
+            "highlights": [
+                "Create Portal Systems, Ticketing Systems, Order processing systems"
+            ]
+        }
+    ],
+    "references": [{
+        "name": "Available upon request",
+        "reference": ""
+    }]
 }
