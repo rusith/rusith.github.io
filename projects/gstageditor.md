@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/galaxy.png
+image: images/gstag.png
 title: GS Tag Editor
 permalink: projects/gstag
 date: 2017
