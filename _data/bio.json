@@ -16,7 +16,7 @@
         },
         "profiles": [{
                 "network": "github",
-                "username": "mmaluhia",
+                "username": "rusith",
                 "url": "http://github.com/rusith"
             },
             {
@@ -37,22 +37,14 @@
         ]
     },
     "interests": [{
-            "name": "Software engineering",
-            "keywords": [
-                "OOP"
-            ]
-        },
-        {
-            "name": "Artificial intelligence",
-            "keywords": []
-        },
-        {
-            "name": "Programming",
-            "keywords": [
-                "OOP"
-            ]
-        },
-    ],
+        "name": "Programming",
+        "keywords": [
+            "OOP",
+            "OOD",
+            "Functional Programming",
+            "Reactive Programming"
+        ]
+    }],
     "skills": [{
             "name": "Languages and Frameworks",
             "level": "",
@@ -65,7 +57,7 @@
                 "C",
                 "C++",
                 "Java",
-                "Assembly",
+                "Assembly"
             ]
         },
         {
