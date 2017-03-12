@@ -6,7 +6,7 @@ title: Rush
 permalink: projects/micromouse
 date: 2015
 labels:
-  - C#
+  - C Sharp
   - AudioManager
   - WindowsForms
   - Windows
