@@ -3,7 +3,7 @@ layout: project
 type: project
 image: images/genius.png
 title: Genius
-permalink: projects/micromouse
+permalink: projects/genius
 date: 2015
 labels:
   - C++
