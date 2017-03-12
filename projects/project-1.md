@@ -7,7 +7,6 @@ permalink: projects/micromouse
 date: 2015
 labels:
   - C#
-  - .Net
   - AudioManager
   - WindowsForms
   - Windows
