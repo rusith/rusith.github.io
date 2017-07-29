@@ -10,9 +10,6 @@ labels:
   - Authorization
   - Node JS
 ---
-
-# An HTTP Proxy That Can Handle Authentication and Authorization Using Node JS
-
 I Had to implement a service gateway for a microservice backend. I tried various open source API gateways but didn't help with
 my requirements. some of my requirements was
 
