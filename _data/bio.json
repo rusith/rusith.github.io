@@ -15,7 +15,7 @@
             "region": "Sri lanka"
         },
         "profiles": [{
-                "network": "github",
+                "network": "gitlab",
                 "username": "rusith",
                 "url": "http://github.com/rusith"
             },
@@ -40,10 +40,22 @@
         "name": "Programming",
         "keywords": [
             "OOP",
+            "C#",
+            "Javascript",
+            "Typescript",
+            "C++",
+            "C",
             "OOD",
             "Functional Programming",
             "Reactive Programming"
         ]
+    }, {
+      "name": "Software Engineering", 
+      "keywords": [
+        "Layered Architecture",
+        "Service Oriented Architecture",
+        "Microservices"
+      ]
     }],
     "skills": [{
             "name": "Languages and Frameworks",
