@@ -15,9 +15,14 @@
             "region": "Sri lanka"
         },
         "profiles": [{
-                "network": "gitlab",
+                "network": "github",
                 "username": "rusith",
                 "url": "http://github.com/rusith"
+            },
+            {
+                "network": "gitlab",
+                "username": "rusith",
+                "url": "http://gitlab.com/rusith"
             },
             {
                 "network": "linkedin",
@@ -61,15 +66,19 @@
             "name": "Languages and Frameworks",
             "level": "",
             "keywords": [
-                "C#",
-                "Javascript",
-                "Typescript",
-                "T-SQL",
-                "PHP",
-                "C",
-                "C++",
-                "Java",
-                "Assembly"
+              ".Net",
+              "Node JS",
+              ".Net Core",
+              "Qt",
+              "C#",
+              "Javascript",
+              "Typescript",
+              "T-SQL",
+              "PHP",
+              "C",
+              "C++",
+              "Java",
+              "Assembly"
             ]
         },
         {
@@ -108,9 +117,9 @@
             "website": "http://www.bourketechnologies.com/",
             "startDate": "2015-08-01",
             "endDate": "Present",
-            "summary": "Lead software engineer of Bourke technologies",
+            "summary": "Software engineer at Bourke technologies",
             "highlights": [
-                "Create Portal Systems, Ticketing Systems, Order processing systems"
+                ""
             ]
         }
     ],
