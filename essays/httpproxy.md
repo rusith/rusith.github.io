@@ -14,8 +14,8 @@ I Had to implement a service gateway for a microservice backend. I tried various
 my requirements. some of my requirements was
 
 * Some endpoints or APIs are secured while others aren't
-* For the letter reason Gateway itself should manage tokens
-* One token can be used to access all non secured endpoints
+* For that reason Gateway itself should manage tokens
+* One token can be used to access all secured endpoints
 * Users should be authenticated using username and password
 
 Then i decided to do it my self without using an existing implementation. as a temporary solution.
