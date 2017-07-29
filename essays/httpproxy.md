@@ -21,12 +21,12 @@ my requirements. some of my requirements was
 Then i decided to do it my self without using an existing implementation. as a temporary solution.
 Here I Use Node JS to write the proxy . Node JS does a great job handling lot of requests and performance is pretty good.
 
-I use the package Node HTTP Proxy https://github.com/nodejitsu/node-http-proxy to implement the proxy.
+I use the package [Node HTTP Proxy](https://github.com/nodejitsu/node-http-proxy)  to implement the proxy.
 And Redis to store access tokens.
 
 Let's jump into to the code.
 
-``` JS
+```javascript
 (function() {
     "use strict";
 
