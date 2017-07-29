@@ -26,7 +26,7 @@ And Redis to store access tokens.
 
 Let's jump into to the code.
 
-```JS
+``` JS
 (function() {
     "use strict";
 
