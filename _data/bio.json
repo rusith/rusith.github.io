@@ -1,130 +1,133 @@
 {
-    "basics": {
-        "name": "Shanaka Rusith",
-        "label": "Software Engineer",
-        "picture": "https://rusith.github.io/images/rusith.jpg",
-        "email": "rusith@mail.com",
-        "phone": "+94772886223",
-        "website": "https://rusith.github.io",
-        "summary": "I am a self taught programmer who started programming at age 17. since then my passion is programming , i love to learn new technologies , concepts theories and techniques . I always willing to learn. My first professional experience was the internship at Fingertips solutions. I've learned a lot about web technologies and version control systems in that 5 months. then moved to Bourke Technologies as a software engineering intern . In that internship I've learned database technologies, managing large databases and Microsoft .Net framework. Then i got the permanent position at the company. since then I was able to work with experienced engineers , other professionals and got the chance to work with large enterprise applications.",
-        "location": {
-            "address": "301/wavinna,palapathwela, matale",
-            "postalCode": "21000",
-            "city": "Matale",
-            "countryCode": "Sri lanka",
-            "region": "Sri lanka"
-        },
-        "profiles": [{
-                "network": "github",
-                "username": "rusith",
-                "url": "http://github.com/rusith"
-            },
-            {
-                "network": "gitlab",
-                "username": "rusith",
-                "url": "http://gitlab.com/rusith"
-            },
-            {
-                "network": "linkedin",
-                "username": "shanaka-rusith-12869710a",
-                "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
-            },
-            {
-                "network": "twitter",
-                "username": "shanaka_rusith",
-                "url": "http://twitter.com/shanaka_rusith"
-            },
-            {
-                "network": "facebook",
-                "username": "shanaka.rusith",
-                "url": "http://facebook.com/shanaka.rusith"
-            }
-        ]
+  "basics": {
+    "name": "Shanaka Rusith",
+    "label": "Software Engineer",
+    "picture": "https://rusith.github.io/images/rusith.jpg",
+    "email": "rusith@mail.com",
+    "phone": "+94772886223",
+    "website": "https://rusith.github.io",
+    "summary":
+      "I am a self taught programmer who started programming at age 17. since then my passion is programming , i love to learn new technologies , concepts theories and techniques . I always willing to learn. My first professional experience was the internship at Fingertips solutions. I've learned a lot about web technologies and version control systems in that 5 months. then moved to Bourke Technologies as a software engineering intern . In that internship I've learned database technologies, managing large databases and Microsoft .Net framework. Then i got the permanent position at the company. since then I was able to work with experienced engineers , other professionals and got the chance to work with large enterprise applications.",
+    "location": {
+      "address": "301/wavinna,palapathwela, matale",
+      "postalCode": "21000",
+      "city": "Matale",
+      "countryCode": "Sri lanka",
+      "region": "Sri lanka"
     },
-    "interests": [{
-        "name": "Programming",
-        "keywords": [
-            "OOP",
-            "C#",
-            "Javascript",
-            "Typescript",
-            "C++",
-            "C",
-            "OOD",
-            "Functional Programming",
-            "Reactive Programming"
-        ]
-    }, {
-      "name": "Software Engineering", 
+    "profiles": [
+      {
+        "network": "github",
+        "username": "rusith",
+        "url": "http://www.github.com/rusith"
+      },
+      {
+        "network": "gitlab",
+        "username": "rusith",
+        "url": "http://www.gitlab.com/rusith"
+      },
+      {
+        "network": "linkedin",
+        "username": "shanaka-rusith-12869710a",
+        "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
+      },
+      {
+        "network": "twitter",
+        "username": "shanaka_rusith",
+        "url": "http://www.twitter.com/shanaka_rusith"
+      },
+      {
+        "network": "facebook",
+        "username": "shanaka.rusith",
+        "url": "http://www.facebook.com/shanaka.rusith"
+      }
+    ]
+  },
+  "interests": [
+    {
+      "name": "Programming",
+      "keywords": [
+        "OOP",
+        "C#",
+        "Javascript",
+        "Typescript",
+        "C++",
+        "C",
+        "OOD",
+        "Functional Programming",
+        "Reactive Programming"
+      ]
+    },
+    {
+      "name": "Software Engineering",
       "keywords": [
         "Layered Architecture",
         "Service Oriented Architecture",
         "Microservices"
       ]
-    }],
-    "skills": [{
-            "name": "Languages and Frameworks",
-            "level": "",
-            "keywords": [
-              ".Net",
-              "Node JS",
-              ".Net Core",
-              "Qt",
-              "C#",
-              "Javascript",
-              "Typescript",
-              "T-SQL",
-              "PHP",
-              "C",
-              "C++",
-              "Java",
-              "Assembly"
-            ]
-        },
-        {
-            "name": "Toolsets/OS",
-            "level": "",
-            "keywords": [
-                "Windows",
-                "Ubuntu",
-                "Git/GitHub"
-            ]
-        }
-    ],
-    "education": [{
-        "institution": "British Computer Society",
-        "area": "Information Technology",
-        "studyType": "PGD",
-        "startDate": "2015-5-10",
-        "endDate": "Present",
-        "gpa": "",
-        "courses": []
-    }],
-    "work": [{
-            "company": "Fingertips Solutions",
-            "position": "Developer - Intern",
-            "website": "http://www.fingertipslanka.com/",
-            "startDate": "2015-01-01",
-            "endDate": "2016-08-01",
-            "summary": "I was a developer intern",
-            "highlights": [
-                "Troubleshoot software, Make software components"
-            ]
-        },
-        {
-            "company": "Bourke Technologies",
-            "position": "Software Engineer",
-            "website": "http://www.bourketechnologies.com/",
-            "startDate": "2015-08-01",
-            "endDate": "Present",
-            "summary": "Software engineer at Bourke technologies",
-            "highlights": [
-                ""
-            ]
-        }
-    ],
-    "references": [{
-        "name": "Available upon request",
-        "reference": ""
-    }]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "level": "",
+      "keywords": [
+        ".Net",
+        "Node JS",
+        ".Net Core",
+        "Qt",
+        "C#",
+        "Javascript",
+        "Typescript",
+        "T-SQL",
+        "PHP",
+        "C",
+        "C++",
+        "Java",
+        "Assembly"
+      ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "level": "",
+      "keywords": ["Windows", "Ubuntu", "Git/GitHub"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "British Computer Society",
+      "area": "Information Technology",
+      "studyType": "PGD",
+      "startDate": "2015-5-10",
+      "endDate": "Present",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "work": [
+    {
+      "company": "Fingertips Solutions",
+      "position": "Developer - Intern",
+      "website": "http://www.fingertipslanka.com/",
+      "startDate": "2015-01-01",
+      "endDate": "2016-08-01",
+      "summary": "I was a developer intern",
+      "highlights": ["Troubleshoot software, Make software components"]
+    },
+    {
+      "company": "Bourke Technologies",
+      "position": "Software Engineer",
+      "website": "http://www.bourketechnologies.com/",
+      "startDate": "2015-08-01",
+      "endDate": "Present",
+      "summary": "Software engineer at Bourke technologies",
+      "highlights": ["Engineering Enteprise Applications", "Consulting"]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ]
 }
