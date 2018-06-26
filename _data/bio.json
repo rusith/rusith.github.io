@@ -7,11 +7,11 @@
     "phone": "+94772886223",
     "website": "https://rusith.github.io",
     "summary":
-      "I am a self taught programmer who started programming at age 17. since then my passion is programming , i love to learn new technologies , concepts theories and techniques . I always willing to learn. My first professional experience was the internship at Fingertips solutions. I've learned a lot about web technologies and version control systems in that 5 months. then moved to Bourke Technologies as a software engineering intern . In that internship I've learned database technologies, managing large databases and Microsoft .Net framework. Then i got the permanent position at the company. since then I was able to work with experienced engineers , other professionals and got the chance to work with large enterprise applications.",
+      "I am an experienced Software Engineer with 2+ years experience. I am a self taught programmer who started learning to program at the age of 16. Since then i have spent my time to learn, practice new technologies and programming languages. I have worked with a large array of web technologies both back end and front end. My experience spans the full gamut of software engineering including web and other technologies which makes me a valuable asset to any software development company or startup looking for someone who can get i n and do anything!",
     "location": {
-      "address": "301/wavinna,palapathwela, matale",
-      "postalCode": "21000",
-      "city": "Matale",
+      "address": "Gangodavilla, Nugegoda, 11222, Sri Lanka",
+      "postalCode": "11222",
+      "city": "Nugegoda",
       "countryCode": "Sri lanka",
       "region": "Sri lanka"
     },
@@ -32,6 +32,11 @@
         "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
       },
       {
+        "network": "medium",
+        "username": "shanaka-rusith-12869710a",
+        "url": "https://www.linkedin.com/in/shanaka-rusith-12869710a/"
+      },
+      {
         "network": "twitter",
         "username": "shanaka_rusith",
         "url": "http://www.twitter.com/shanaka_rusith"
@@ -45,7 +50,7 @@
   },
   "interests": [
     {
-      "name": "Programming",
+      "name": "Software Engineering",
       "keywords": [
         "OOP",
         "C#",
@@ -59,12 +64,7 @@
       ]
     },
     {
-      "name": "Software Engineering",
-      "keywords": [
-        "Layered Architecture",
-        "Service Oriented Architecture",
-        "Microservices"
-      ]
+      "name": "Music"
     }
   ],
   "skills": [
@@ -90,7 +90,12 @@
     {
       "name": "Toolsets/OS",
       "level": "",
-      "keywords": ["Windows", "Ubuntu", "Git/GitHub"]
+      "keywords": [
+        "Windows",
+        "Ubuntu",
+        "Mac OS",
+        "Git"
+      ]
     }
   ],
   "education": [
@@ -112,7 +117,9 @@
       "startDate": "2015-01-01",
       "endDate": "2016-08-01",
       "summary": "I was a developer intern",
-      "highlights": ["Troubleshoot software, Make software components"]
+      "highlights": [
+        "Troubleshoot software, Make software components"
+      ]
     },
     {
       "company": "Bourke Technologies",
@@ -121,7 +128,10 @@
       "startDate": "2015-08-01",
       "endDate": "Present",
       "summary": "Software engineer at Bourke technologies",
-      "highlights": ["Engineering Enteprise Applications", "Consulting"]
+      "highlights": [
+        "Engineering Enterprise Applications",
+        "Consulting"
+      ]
     }
   ],
   "references": [
