@@ -44,6 +44,15 @@
       {% endif %}
       {% endif %}
       {% endfor %}
+
+
+
+      {% for post in paginator.posts %}
+        {% for tag in post.tags %}
+          {% capture tag_name %}{{ tag }}{% endcapture %}
+          <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="tag-in-post">{{ tag_name }}</span></a>
+        {% endfor %}
+      {% endfor %}
     </nav>
   </div>
 </div>
