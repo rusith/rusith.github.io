@@ -1,24 +1,26 @@
-# Site settings
+# Dependencies
+highlighter:      rouge
 
-# REQUIRED CHANGES
-# Edit next line, providing your own name.
-title: Shanaka Rusith | Professional Portfolio
-# Edit next line, replacing 'techfolios' with your github username
-url: "https://rusith.github.io"
-# Edit next line so that baseurl is "" if your repo is <username>.github.io
-baseurl: ""
+# Permalinks
+permalink:        pretty
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
 
-# OPTIONAL CHANGES
-# You might want to change the bio page label to something else, such as CV
-bio-page-label: Resume
-# You might want to change the theme associated with one or more sections of the site.
-# Defining your own custom theme variations is easy. See the documentation.
-theme-home: theme-bio.builtin-2.html
-theme-projects: theme-projects-builtin-2.html
-theme-essays: theme-essays-builtin-2.html
-theme-bio: theme-bio.builtin-1.html
+# Setup
+title:            Rusith
+tagline:          'Personal Website'
+description:      'A tech and art enthusiast from Sri Lanka who trys to share his thought and learnings'
+url:              https://rusith.me
+baseurl:          /
 
-# YOU NORMALLY NEVER CHANGE THE FOLLOWING
-markdown: kramdown
-include: [_data]
+author:
+  name:           'Shanaka Rusith'
+paginate:         5
 
+github:  https://github.com/rusith
+linkedin:	https://www.linkedin.com/in/shanaka-rusith-12869710a
+fb: https://www.facebook.com/shanaka.rusith
+twitter: https://twitter.com/shanaka_rusith
+goodreads: http://goodreads.com/rusith
+gitlab: https://gitlab.com/rusith
