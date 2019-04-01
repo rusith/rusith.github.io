@@ -4,7 +4,6 @@ title: One Method, Different Implementations
 tags: csharp
 comments: true
 ---
-
 Well, these are not actually methods, we set Func<>s as properties, so people can call them just like methods, and we can change the function from the constructor according to the user's needs. in this example, I am creating a class which has few methods to download data, the user of the class can decide whether they should cache the results or not.
 This may have limitations. but this could be useful in some scenarios.
 Here's the code
