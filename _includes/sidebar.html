@@ -48,7 +48,7 @@
 
 
       <div class="sidebar-tag-wrapper">
-        {% assign tagList = ['web', 'aws', 'csharp', 'javascript'] %}
+        {% assign tagList = 'web|aws|csharp|javascript' | split: '|' %}
         {% for tag in tagList %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
