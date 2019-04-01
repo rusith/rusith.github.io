@@ -257,7 +257,7 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
-.tag-in-post {
+.post-tag {
   display: inline-block;
   height: 32px;
   font-size: 13px;
@@ -286,4 +286,18 @@ a.sidebar-nav-item:focus {
 }
 .lead {
   margin-top: 15px
+}
+
+
+.post-tag-in-sidebar {
+  display: inline-block;
+  height: 21px;
+  font-weight: 550;
+  line-height: 21px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.sidebar-tag-wrapper {
+  margin-top: 15px;
 }

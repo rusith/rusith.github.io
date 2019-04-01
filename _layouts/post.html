@@ -7,7 +7,7 @@ layout: default
   <div>
     {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="tag-in-post">{{ tag_name }}</span></a>
+    <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag">{{ tag_name }}</span></a>
     {% endfor %}
   </div>
   <span class="post-date">{{ page.date | date_to_string }}</span>
