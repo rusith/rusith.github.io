@@ -65,13 +65,7 @@ namespace MyApp.Tests.Experiments
         /// Download JSON (fake because i didn't have an internet connection when writing this)
         /// </summary>
         public Func<string, Model> DownloadJson { get; } = uri => JsonConvert.DeserializeObject<Model>(
-            $@"
-                {{
-                    'jsonFor': '{uri}',
-                    'data': {{
-                    }}
-                }}
-            ".Replace('\'', '"'));
+            "{'jsonFor': '+ " + url + " +', 'data': {}}".Replace('\'', '"'));
     }
 
 
