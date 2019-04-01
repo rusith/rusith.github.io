@@ -56,11 +56,11 @@
           {% endfor %}
         {% endfor %}
 
-        {% assign uniqTags = tags | uniq %}
+        <!-- {% assign uniqTags = tags | uniq %}
         {% for tag in uniqTags %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
-        {% endfor %}
+        {% endfor %} -->
       </div>
     </nav>
   </div>
