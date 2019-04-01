@@ -284,6 +284,7 @@ a.sidebar-nav-item:focus {
   user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
+
 .lead {
   margin-top: 15px
 }

@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="/">
           {{ site.title }}
         </a>
       </h1>
@@ -28,10 +28,7 @@
     </div>
 
     <nav class="sidebar-nav">
-        Base URL: {{ site.baseurl }} <br>
-        Page URL: {{page.url}}
-      
-      {% if page.url %}
+      {% if page.url != '/' %}
         <a class="sidebar-nav-item" href="/">Home</a>
       {% endif %}
       
