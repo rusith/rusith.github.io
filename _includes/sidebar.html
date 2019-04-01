@@ -48,19 +48,10 @@
 
 
       <div class="sidebar-tag-wrapper">
-        {% assign tags = '' | split: '' %}
-        {% for post in site.posts %}
-          {% for tag in post.tags %}
-            {% capture tag_name %}{{ tag }}{% endcapture %}
-            {% assign tags = tags | concat: tag_name %}
-          {% endfor %}
-        {% endfor %}
-
-        <!-- {% assign uniqTags = tags | uniq %}
-        {% for tag in uniqTags %}
+        {% for tag in ['web', 'aws', 'csharp', 'javascript'] %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
-        {% endfor %} -->
+        {% endfor %}
       </div>
     </nav>
   </div>
