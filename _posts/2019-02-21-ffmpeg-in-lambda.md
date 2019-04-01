@@ -23,7 +23,7 @@ To run FFmpeg you have to have a build that is compatible with the Lambda enviro
 
 The package folder will look like something like this after extracting FFmpeg
 
-<img src="{{ site.baseurl }}/public/2019-02-21-ffmpeg-in-lambda/file-structure.png">
+<img src="{{ site.baseurl }}/public/images/2019-02-21-ffmpeg-in-lambda/file-structure.png">
 
 ## Running It
 
