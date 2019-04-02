@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Running FFmpeg in AWS Lambda using NodeJS
-tags: aws lambda
+tags: programming aws lambda
 comments: true
 ---
 Okay, no drama. let’s get right to the point.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Genie - An Efficient Way to Access Data
-tags: csharp genie rdbms
+tags: programming csharp genie rdbms
 comments: true
 ---
 

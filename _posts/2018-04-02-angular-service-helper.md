@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Service Helper — Seamlessly Send Request in Angular
-tags: angular typescript web
+tags: programming angular typescript web
 comments: true
 ---
 
