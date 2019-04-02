@@ -1,6 +1,9 @@
 # Dependencies
 highlighter:      rouge
 
+plugins:
+  - jekyll-sitemap
+
 # Permalinks
 permalink:        pretty
 gems: [jekyll-paginate]
