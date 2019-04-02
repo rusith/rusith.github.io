@@ -1,12 +1,9 @@
 # Dependencies
 highlighter:      rouge
 
-plugins:
-  - jekyll-sitemap
-
 # Permalinks
 permalink:        pretty
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-sitemap]
 paginate: 5
 paginate_path: "page:num"
 
@@ -28,3 +25,6 @@ twitter: https://twitter.com/shanaka_rusith
 goodreads: http://goodreads.com/rusith
 gitlab: https://gitlab.com/rusith
 imdb: https://www.imdb.com/user/ur81064939
+
+plugins:
+  - jekyll-sitemap
