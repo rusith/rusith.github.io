@@ -6,14 +6,8 @@
           {{ site.title }}
         </a>
       </h1>
-      <a href="{{ site.github }}" class="social-button" target="_blank" style="text-decoration:none">
-        <i class="fab fa-github"></i>
-      </a>
       <a href="{{ site.linkedin }}" class="social-button" target="_blank" style="text-decoration:none">
         <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="{{ site.gitlab }}" class="social-button" target="_blank" style="text-decoration:none">
-          <i class="fab fa-gitlab"></i>
       </a>
       <a href="{{ site.fb }}" class="social-button" target="_blank" style="text-decoration:none">
         <i class="fab fa-facebook"></i>
@@ -23,6 +17,15 @@
       </a>
       <a href="{{ site.goodreads }}" class="social-button" target="_blank" style="text-decoration:none">
         <i class="fab fa-goodreads"></i>
+      </a>
+      <a href="{{ site.github }}" class="social-button" target="_blank" style="text-decoration:none">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="{{ site.gitlab }}" class="social-button" target="_blank" style="text-decoration:none">
+        <i class="fab fa-gitlab"></i>
+      </a>
+      <a href="{{ site.imdb }}" class="social-button" target="_blank" style="text-decoration:none">
+        <i class="fab fa-imdb"></i>
       </a>
       <p class="lead">{{ site.description }}</p>
     </div>
@@ -42,7 +45,7 @@
       {% if node.title != null %}
       {% if node.layout == "page" %}
       <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}"
-        href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+        href="{{ site.url }}{{ node.url }}">{{ node.title }}</a>
       {% endif %}
       {% endif %}
       {% endfor %}
@@ -53,7 +56,7 @@
         {% assign tagList = 'web|aws|csharp|javascript' | split: '|' %}
         {% for tag in tagList %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
-          <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
+          <a href="{{ site.url }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
         {% endfor %}
       </div>
     </nav>

@@ -7,7 +7,7 @@ layout: default
   <div>
     {% for tag in page.tags %}
     {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="{{ site.baseurl }}/tag/{{ tag_name }}"><span class="post-tag">{{ tag_name }}</span></a>
+    <a href="{{ site.url }}/tag/{{ tag_name }}"><span class="post-tag">{{ tag_name }}</span></a>
     {% endfor %}
   </div>
   <span class="post-date">{{ page.date | date_to_string }}</span>
@@ -21,7 +21,7 @@ layout: default
     {% for post in site.related_posts limit:3 %}
     <li>
       <h3>
-        <a href="{{ site.baseurl }}/{{ post.url }}">
+        <a href="{{ site.url }}{{ post.url }}">
           {{ post.title }}
           <small>{{ post.date | date_to_string }}</small>
         </a>
