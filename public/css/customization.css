@@ -63,3 +63,11 @@
  code {
   font-family: 'IBM Plex Mono', monospace;
  }
+
+ /*
+  * ─── CONTENT WIDTH FIXES ────────────────────────────────────────────────────────
+  */
+
+ .content.container {
+  max-width: 100%;
+ }
