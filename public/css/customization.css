@@ -1,0 +1,65 @@
+/*
+  Customization on top of the default Hyde theme
+*/
+
+/* The Description P */
+.lead {
+  margin-top: 15px
+}
+
+/*
+ * ─── POST TAGS ──────────────────────────────────────────────────────────────────
+ */
+
+  
+.post-tag {
+  display: inline-block;
+  height: 32px;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, .6);
+  line-height: 32px;
+  padding: 0 8px;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  background-color: #eceff1;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  -o-transition: all .3s linear;
+  transition: all .3s linear;
+
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.post-tag-in-sidebar {
+  display: inline-block;
+  height: 21px;
+  font-weight: 550;
+  line-height: 21px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+.sidebar-tag-wrapper {
+  margin-top: 15px;
+}
+
+
+/*
+ * ─── CODE DISPLAY CUSTOMIZATION ─────────────────────────────────────────────────
+ */
+
+
+ code {
+  font-family: 'IBM Plex Mono', monospace;
+ }
