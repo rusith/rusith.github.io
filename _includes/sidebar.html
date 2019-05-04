@@ -53,7 +53,7 @@
 
 
       <div class="sidebar-tag-wrapper">
-        {% assign tagList = 'programming|thoughts' | split: '|' %}
+        {% assign tagList = 'programming|thoughts|dataScience' | split: '|' %}
         {% for tag in tagList %}
           {% capture tag_name %}{{ tag }}{% endcapture %}
           <a href="{{ site.url }}/tag/{{ tag_name }}"><span class="post-tag post-tag-in-sidebar">{{ tag_name }}</span></a>
