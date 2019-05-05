@@ -20,3 +20,7 @@ There should be two variables when it comes to simple linear regression. which a
 
 
 We use a linear equation  which looks like something like 
+
+
+When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
