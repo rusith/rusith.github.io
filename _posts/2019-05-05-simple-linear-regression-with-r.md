@@ -21,9 +21,8 @@ There should be two variables when it comes to simple linear regression. which a
 
 
 In simple linear regression, we use the equation,
-<div style="font-size: 30px">
+
 $$y = \beta_{0} + \beta_{1}x$$
-<div/>
 
 In which $$\beta_{0}$$ is a constant (*y* intercept) and $$\beta_{1}$$ is the coefficient or the slope of $$x$$
 
@@ -49,7 +48,7 @@ $$y = \beta_0 + \beta_1  x + \varepsilon$$
 Okay, now we have a basic idea about linear regression. let's go ahead and use it in R.
 
 
-you can download the data set that I am going to use in this post from <a href="https://docs.google.com/spreadsheets/d/195xHW9pHpRCXltWzInZlirnOnga2eIRRlEod7WY7SZM/edit?usp=sharing" target="_blank" >Here<a/>.
+you can download the data set that I am going to use in this post from <a href="https://docs.google.com/spreadsheets/d/195xHW9pHpRCXltWzInZlirnOnga2eIRRlEod7WY7SZM/edit?usp=sharing" target="_blank" >Here <a/>.
 Download the file as `salaryData.csv` to a folder and set it as the working directory in your R editor
 
 This data set contains a `Salary` and  `TotalExperience` variables which we can assume to have some correlation between them.
