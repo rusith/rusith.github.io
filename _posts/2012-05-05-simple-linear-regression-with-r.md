@@ -56,8 +56,6 @@ below is a visualization of the data set.
 
 <img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/data-set-salary-data.png" style="width:500px">
 
-You can see some correlation between the two features.
-
 Next step is to determine the dependent variable and the independent variable. we can intuitively choose the salary as the dependent variable. so `Salary` will be the dependent variable and `TotalExperience` will be the independent variable.
 
 Now let's load the data set and split the data set into two sets (training set and test set). we will choose `.75` as the ratio as we have 100 records in the data set. this is generally considered as a good ratio.
@@ -121,6 +119,16 @@ visualize(trainingSet$TotalExperience, trainingSet$Salary )
 # Plot the data for the test set
 visualize(testSet$TotalExperience, testSet$Salary )
 ```
+
+this results in below graphs
+
+for training data
+
+<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/final-plot-training-data.png" style="width:500px">
+
+for test data
+<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/final-plot-test-data.png" style="width:500px">
+
 
 With these plots, you can see the model has adjusted the equation to create the most error-free line possible. 
 
