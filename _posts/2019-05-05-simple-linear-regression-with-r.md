@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Simple Linear Regression With R
+tags: machineLearning dataScience r
 comments: true
 hasMath: true
 ---
@@ -29,14 +30,14 @@ We call this a linear equation as it will represent a straight line if we were t
 
 So if you were to plot $$y=4+2x$$,
 
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-1.png" style="width:500px">
+<img src="{{ site.url }}/public/images/2019-05-05-simple-linear-regression-with-r/sample-plot-1.png" style="width:500px">
 
 The *y* intercept, in this case, is 4 that is the point where the line intercepts the vertical axis *y*. so $$\beta_{0}$$ is 4. and the slope, in this case, is 2 which we can obtain using $$\Delta y / \Delta x$$
 
 
 But the data in the real world on average follows a linear pattern and they are not gonna be always in line with our equation. so there will be errors. and what are the errors? an error is at a given point, the difference between real value and the value presented by the equation
 
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-with-data.png" style="width:500px">
+<img src="{{ site.url }}/public/images/2019-05-05-simple-linear-regression-with-r/sample-plot-with-data.png" style="width:500px">
 
 And what the regression algorithm going to do is minimize the errors and adjust the equation to create the line with the least possible errors.
 
@@ -56,7 +57,7 @@ This data set contains a `Salary` and  `TotalExperience` variables which we can 
 
 below is a visualization of the data set.
 
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/data-set-salary-data.png" style="width:500px">
+<img src="{{ site.url }}/public/images/2019-05-05-simple-linear-regression-with-r/data-set-salary-data.png" style="width:500px">
 
 Next step is to determine the dependent variable and the independent variable. we can intuitively choose the salary as the dependent variable. so `Salary` will be the dependent variable and `TotalExperience` will be the independent variable.
 
@@ -126,10 +127,10 @@ this results in below graphs
 
 for training data
 
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/final-plot-training-data.png" style="width:500px">
+<img src="{{ site.url }}/public/images/2019-05-05-simple-linear-regression-with-r/final-plot-training-data.png" style="width:500px">
 
 for test data
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/final-plot-test-data.png" style="width:500px">
+<img src="{{ site.url }}/public/images/2019-05-05-simple-linear-regression-with-r/final-plot-test-data.png" style="width:500px">
 
 
 With these plots, you can see the model has adjusted the equation to create the most error-free line possible. 

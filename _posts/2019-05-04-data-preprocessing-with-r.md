@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Data Pre-Processing With R
-tags: r machineLearning dataScience
+tags: machineLearning dataScience r
 comments: true
 ---
 
