@@ -16,7 +16,7 @@ There should be two variables when it comes to simple linear regression. which a
 |---------------------------------------|----------------------------------|
 | This is the value we want to forecast | This explains the other variable |
 | Value depends on another variable     | Independent of other values      |
-| Usually denoted as $$y$$              | Usually denotes as $$x$$         |
+| Usually denoted as $$y$$              | Usually denoted as $$x$$         |
 
 
 In simple linear regression, we use the equation,
@@ -25,7 +25,7 @@ $$y = \beta_{0} + \beta_{1}x$$
 
 In which $$\beta_{0}$$ is a constant (*y* intercept) and $$\beta_{1}$$ is the coefficient or the slope of $$x$$
 
-We call this a linear equation as it will represent a straight line if we were to plot this in a bi-dimensional plain.
+We call this a linear equation as it will represent a straight line if we were to plot this in a bidimensional plain.
 
 So if you were to plot $$y=4+2x$$,
 
@@ -34,7 +34,7 @@ So if you were to plot $$y=4+2x$$,
 The *y* intercept, in this case, is 4 that is the point where the line intercepts the vertical axis *y*. so $$\beta_{0}$$ is 4. and the slope, in this case, is 2 which we can obtain using $$\Delta y / \Delta x$$
 
 
-But the data in the real world on average follows a linear pattern and they are not gonna be always in line with our equation. and there will be errors. so what are the errors? an error is at a given point, the difference between real value and the value presented by the equation
+But the data in the real world on average follows a linear pattern and they are not gonna be always in line with our equation. so there will be errors. and what are the errors? an error is at a given point, the difference between real value and the value presented by the equation
 
 <img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-with-data.png" style="width:500px">
 
@@ -47,7 +47,7 @@ $$y = \beta_0 + \beta_1  x + \varepsilon$$
 Okay, now we have a basic idea about linear regression. let's go ahead and use it in R.
 
 
-you can download the data set that I am going to use in this post from  [Here](https://docs.google.com/spreadsheets/d/195xHW9pHpRCXltWzInZlirnOnga2eIRRlEod7WY7SZM/edit?usp=sharing).
+you can download the data set that I am going to use in this post from <a href="https://docs.google.com/spreadsheets/d/195xHW9pHpRCXltWzInZlirnOnga2eIRRlEod7WY7SZM/edit?usp=sharing" target="_blank" >Here<a/>.
 Download the file as `salaryData.csv` to a folder and set it as the working directory in your R editor
 
 This data set contains a `Salary` and  `TotalExperience` variables which we can assume to have some correlation between them.
