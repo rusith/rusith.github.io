@@ -42,7 +42,9 @@ And what the regression algorithm going to do is minimize the errors and adjust 
 
 So the linear regression model must include the error. After including the error, the model looks like this
 
+<div style="font-size: 40px">
 $$y = \beta_0 + \beta_1  x + \varepsilon$$
+</div>
 
 Okay, now we have a basic idea about linear regression. let's go ahead and use it in R.
 
