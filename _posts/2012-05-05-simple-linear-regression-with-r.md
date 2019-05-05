@@ -2,7 +2,7 @@
 layout: post
 title: Simple Linear Regression With R
 comments: true
-hasLatex: true
+hasMath: true
 ---
 
 Regression models are used to predict real values such as salary. Simple linear regression is model of regression which is used to identify the correlation between two variables and possibly predict the dependent variable by using the independent variable.
