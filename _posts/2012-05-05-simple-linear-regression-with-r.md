@@ -20,4 +20,11 @@ There should be two variables when it comes to simple linear regression. which a
 
 
 In simple linear regression, we use the equation,
+
 $$y = \beta_{0} + \beta_{1}x$$
+
+In which \(\beta_{0}\) is a constant (y intercept) and \(\beta_{1}\) is the coefficient or the slope of *x*
+
+We call this a linear equation as in will represent a straight line if we were to plot this in a bi-dimensional plain.
+
+[Imgur](https://i.imgur.com/XUByeyS.png)
