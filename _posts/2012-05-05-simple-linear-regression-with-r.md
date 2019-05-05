@@ -16,17 +16,17 @@ There should be two variables when it comes to simple linear regression. which a
 |---------------------------------------|----------------------------------|
 | This is the value we want to forecast | This explains the other variable |
 | Value depends on another variable     | Independent of other values      |
-| Usually denoted as *y*                | Usually denotes as *x*           |
+| Usually denoted as $$y$$              | Usually denotes as $$x$$         |
 
 
 In simple linear regression, we use the equation,
 
 $$y = \beta_{0} + \beta_{1}x$$
 
-In which $$\beta_{0}$$ is a constant (y intercept) and $$\beta_{1}$$ is the coefficient or the slope of *x*
+In which $$\beta_{0}$$ is a constant (y intercept) and $$\beta_{1}$$ is the coefficient or the slope of $$x$$
 
 We call this a linear equation as in will represent a straight line if we were to plot this in a bi-dimensional plain.
 
-{{page.path}}
+So if you were to plot $$y=4+2x$$,
 
-<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-1.png">
+<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-1.png" style="width:500px">
