@@ -41,7 +41,6 @@ title: Home
   {% endif %}
 </div>
 
-<h2>{{mathJaxLoaded}} - 1</h2>
 {% for post in paginator.posts %}
   {% if post.hasMath %}
     {% assign mathJaxLoaded = "YES" %}
@@ -49,5 +48,3 @@ title: Home
     {% break %}
   {% endif %}
 {% endfor %}
-
-<h2>{{mathJaxLoaded}} - 2 </h2>
