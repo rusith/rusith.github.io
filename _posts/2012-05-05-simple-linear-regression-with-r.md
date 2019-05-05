@@ -23,8 +23,10 @@ In simple linear regression, we use the equation,
 
 $$y = \beta_{0} + \beta_{1}x$$
 
-In which \(\beta_{0}\) is a constant (y intercept) and \(\beta_{1}\) is the coefficient or the slope of *x*
+In which $$\beta_{0}$$ is a constant (y intercept) and $$\beta_{1}$$ is the coefficient or the slope of *x*
 
 We call this a linear equation as in will represent a straight line if we were to plot this in a bi-dimensional plain.
 
-[Imgur](https://i.imgur.com/XUByeyS.png)
+{{page.path}}
+
+<img src="{{ site.url }}/public/images/2012-05-05-simple-linear-regression-with-r/sample-plot-1.png">
