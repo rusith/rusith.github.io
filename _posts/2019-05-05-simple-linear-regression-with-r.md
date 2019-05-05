@@ -21,8 +21,9 @@ There should be two variables when it comes to simple linear regression. which a
 
 
 In simple linear regression, we use the equation,
-
+<div style="font-size: 30px">
 $$y = \beta_{0} + \beta_{1}x$$
+<div/>
 
 In which $$\beta_{0}$$ is a constant (*y* intercept) and $$\beta_{1}$$ is the coefficient or the slope of $$x$$
 
@@ -43,9 +44,7 @@ And what the regression algorithm going to do is minimize the errors and adjust 
 
 So the linear regression model must include the error. After including the error, the model looks like this
 
-<div style="font-size: 30px">
 $$y = \beta_0 + \beta_1  x + \varepsilon$$
-</div>
 
 Okay, now we have a basic idea about linear regression. let's go ahead and use it in R.
 
