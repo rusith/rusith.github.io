@@ -11,7 +11,7 @@
  * ─── POST TAGS ──────────────────────────────────────────────────────────────────
  */
 
-  
+
 .post-tag {
   display: inline-block;
   height: 32px;
@@ -60,26 +60,28 @@
  */
 
 
- code {
+code {
   font-family: 'IBM Plex Mono', monospace;
- }
+}
 
- /*
+/*
   * ─── CONTENT WIDTH FIXES ────────────────────────────────────────────────────────
   */
 
- .content.container {
+.content.container {
   max-width: 100%;
- }
+}
 
- .post-links-box {
+.post-links-box {
   border: 2px solid #eceff1;
   padding: 10px;
   margin: 10px 0;
   border-radius: 6px;
- }
+  position: relative;
+  padding-bottom: 0;
+}
 
- .also-read {
+.also-read {
   position: absolute;
   top: -14px;
   left: 8px;
@@ -87,4 +89,4 @@
   color: lightcoral;
   background: white;
   padding: 0 5px;
- }
+}
