@@ -3,6 +3,7 @@ layout: post
 title: The Essence of Machine Learning
 tags: machineLearning
 comments: true
+hasMath: true
 ---
 
 Machine learning can significantly improve the performance of a system. This could be very beneficial for businesses or any other application.
