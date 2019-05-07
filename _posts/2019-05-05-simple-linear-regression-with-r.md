@@ -6,6 +6,10 @@ comments: true
 hasMath: true
 ---
 
+<div style="border: 1px solid red; padding: 10px">
+Read <a href="{{ site.url }}/2019/05/04/data-preprocessing-with-r">the previous article on data pre-processing</a>
+</div>
+
 Regression models are used to predict real values such as salary, spending, income. Simple linear regression is a model of regression which is used to identify the correlation between two variables and possibly predict the dependent variable by using the independent variable.
 
 This will enable us to establish a relationship between two attributes such as Income and Spending and we can use what we know about the relationship to forecast unobserved values. 
