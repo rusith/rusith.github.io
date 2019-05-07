@@ -42,15 +42,21 @@ In this case, the credit application is the input for the machine learning syste
 
 In this case, the output has two possibilities (the customer is creditworthy or not)
 
-### Target Function ($$f : \boldsymbol{x}  \rightarrow  y$$)
+### Target Function
+
+$$f : \boldsymbol{x}  \rightarrow  y$$
 
 In this case, this is the ideal credit approval formula which is unknown to us.
 
-### Data ($$(\boldsymbol{x}_1, y_{1}), (\boldsymbol{x}_2, y_{2}), (\boldsymbol{x}_3, y_{3}), ... , (\boldsymbol{x}_n, y_{n})$$)
+### Data 
+
+$$(\boldsymbol{x}_1, y_{1}), (\boldsymbol{x}_2, y_{2}), (\boldsymbol{x}_3, y_{3}), ... , (\boldsymbol{x}_n, y_{n})$$
 
 The historical records that can be used to train the model. this includes the attributes ($$boldsymbol{x}$$) and the output they produced ($$y$$) in this case.
 
 
-## Hypothesis ($$g: x \rightarrow y$$)
+## Hypothesis
+
+$$g: x \rightarrow y$$
 
 This is the function we create that will estimate *f*, that's the goal of learning.
