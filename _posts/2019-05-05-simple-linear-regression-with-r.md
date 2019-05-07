@@ -6,8 +6,9 @@ comments: true
 hasMath: true
 ---
 
-<div style="border: 1px solid red; padding: 10px">
-Read <a href="{{ site.url }}/2019/05/04/data-preprocessing-with-r">the previous article on data pre-processing</a>
+<div class="post-links-box">
+  <span class="also-read">also read</span>
+  <p><a href="{{ site.url }}/2019/05/04/data-preprocessing-with-r"> data pre-processing with R</a></p>
 </div>
 
 Regression models are used to predict real values such as salary, spending, income. Simple linear regression is a model of regression which is used to identify the correlation between two variables and possibly predict the dependent variable by using the independent variable.
