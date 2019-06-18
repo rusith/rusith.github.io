@@ -9,7 +9,7 @@ Before feeding our dataSet into a machine learning algorithm it's absolutely nec
 
 In this post, I will go through a set of procedures which you can use to pre-process a data set.
 
-you can download the data set that I am going to use in this post from  [Here](https://docs.google.com/spreadsheets/d/15tssQQrC9AnnqUqeHj46eoXCixCvFMhhgf3NcFAyqrY/edit?usp=sharing).
+you can download the data set that I am going to use in this post from  [Here]({{ site.url }}/public/data/2019-05-04-data-preprocessing-with-r/dataSet.csv).
 Download the file as `dataSet.csv` to a folder and set it as the working directory in your R editor
 
 The data in this set are completely random and the data set has no real value. as we are only using it in pre-processing, that should not be a problem.
@@ -27,8 +27,6 @@ data <- read.csv("dataSet.csv")
 Now we have the data set loaded into a variable we can go ahead with our pre-processing steps.
 
 ## Dealing with Missing Data
-
-
 
 As you can see in the data set, it has four cells which don't have any values in `Age` and `Salary` variables.
 

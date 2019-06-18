@@ -1,0 +1,13 @@
+Country,Income,Gender,Age,Married
+Sri Lanka,57000,Male,25,Yes
+India,62000,Male,35,No
+Singapore,35000,Male,,Yes
+Sri Lanka,85000,Female,23,No
+Singapore,153000,Female,27,Yes
+Singapore,78000,Male,45,Yes
+Sri Lanka,,Female,50,No
+India,35600,Male,30,No
+Sri Lanka,87854,Male,20,Yes
+Singapore,,Female,,Yes
+Sri Lanka,85421,Female,36,No
+Sri Lanka,96521,Male,42,No

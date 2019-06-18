@@ -57,7 +57,7 @@ Okay, now we have a basic idea about linear regression. let's go ahead and use i
 
 
 you can download the data set that I am going to use in this post from
-<a href="https://docs.google.com/spreadsheets/d/195xHW9pHpRCXltWzInZlirnOnga2eIRRlEod7WY7SZM/edit?usp=sharing" target="_blank" >Here </a> .
+<a href="{{ site.url }}/public/data/2019-05-05-simple-linear-regression-with-r/salaryData.csv" target="_blank" >Here </a> .
 Download the file as `salaryData.csv` to a folder and set it as the working directory in your R editor
 
 This data set contains a `Salary` and  `TotalExperience` variables which we can assume to have some correlation between them.
