@@ -8,7 +8,7 @@ hasMath: true
 
 <div class="post-links-box">
   <span class="also-read">also read</span>
-  <p><a target="_blank" href="{{ site.url }}/2019/05/05/simple-linear-regression">Simple Linear Regression</a></p>
+  <p><a target="_blank" href="{{ site.url }}/2019/05/05/simple-linear-regression-with-r/">Simple Linear Regression</a></p>
 </div>
 
 Regression is a machine learning model which we can use to predict values by using previously observed data. In simple linear regression, we had to use only one independent variable for the prediction. but in the real world often a dependent variable is dependent upon several variables. so we can't use the simple linear regression model in those cases.
@@ -78,7 +78,7 @@ In order to use multiple linear regression on a data set. we have to make some a
 First one is that the independent variables and the dependent variable must be linearly correlated. meaning the relationship of each independent variable must be a linear one. this can be tested using scatter plots. See the example Linear relationship (Left) and the Non-linear relationship visualized using scatter charts
 
 <img src="{{ site.url }}/public/images/2019-06-12-multiple-linear-regression-with-python/scatter-linear.png" style="width:250px">
-<img src="{{ site.url }}/public/images/2019-06-12-multiple-linear-regression-with-python/scatter-non-linear.png" style="width:250px">
+<img src="{{ site.url }}/public/images/2019-06-12-multiple-linear-regression-with-python/s-non-linear.png" style="width:250px">
 
 The second assumption we have to make is that the residuals of the regression should follow a normal distribution. Residuals are the error terms or the difference between observed and predicted values of the dependent variable. A histogram of the residuals can be used to check that they are normally distributed. Additionally, you can use a P-P Plot to see the normality.
 
