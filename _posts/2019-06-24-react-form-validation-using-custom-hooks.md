@@ -6,7 +6,6 @@ comments: true
 hasMath: false
 ---
 Validation!
-You'll have done it right? 
 
 I have this sign-up form here that I want to validate. What do I need to validate? 
 First, firstName and lastName should be entered! and the email should be a valid one. and the passwords should match and should not be empty.
