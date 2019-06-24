@@ -1,7 +1,7 @@
 ---
 layout: post
 title: React Form Validation Using Custom Hooks
-tags: react javascript
+tags: programming react javascript
 comments: true
 hasMath: false
 ---
