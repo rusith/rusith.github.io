@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Creating a Re-Usable Presto Worker Image
+title: Creating a Re-Usable Presto Worker Image - EC2
 tags: bigdata aws cloud
 comments: true
 ---
 
 
-When you have to create a Presto cluster, managing a lot of workers is a pain. So people have built different tools around it to make this easy. but when you don't have any tool like that for the rescue, you can use this approach to set up a machine image that can be used creatively as many workers as you want without doing any configuration on each machine.
+When you have to create a Presto cluster, managing a lot of workers is a pain. So people have built different tools around it to make this easy. but when you don't have any tool like that for the rescue, you can use this approach to set up a machine image that can be used to run as many workers as you want without doing any configuration on each machine.
 
 Okay, first you need to get this right on one instance.
 
@@ -84,12 +84,16 @@ http-server.http.port=8081
 discovery.uri=http://<coordinator ip>:8081
 ```
 
+You can also configure catalogs at this time.
+
+
 Now give it a try by running Presto.
 
 ```sh
 cd ~/presto/bin
 ./launcher run
 ```
+
 
 If you get the service started message. you are ready to go ahead. you can stop Presto service now.
 
