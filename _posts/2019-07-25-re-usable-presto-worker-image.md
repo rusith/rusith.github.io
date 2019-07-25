@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creating a Re-Usable Presto Worker Image - EC2
+title: Creating a Re-Usable Presto Worker Image in EC2
 tags: bigdata aws cloud
 comments: true
 ---
