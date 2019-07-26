@@ -3,6 +3,7 @@ layout: post
 title: Creating a Re-Usable Presto Worker Image in EC2
 tags: bigdata aws cloud
 comments: true
+description: Creating a machine image that can be used to spin up presto worker instances without configuring each one. this could be helpful when you don't want to use any  orchestration tool
 ---
 
 
@@ -165,4 +166,3 @@ Here, I have started 5 workers.
 And all workers are connected and ready to use.
 
 <img alt="Presto Service Running" src="{{ site.url }}/public/post-data/2019-07-25-re-usable-presto-worker/5-workers-dashboard.png">
-
