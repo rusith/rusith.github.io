@@ -3,6 +3,7 @@ layout: post
 title: Data Pre-Processing With R
 tags: machineLearning dataScience r
 comments: true
+description: Before feeding our dataSet into a machine learning algorithm it's absolutely necessary to pre-process the data where we should clean and re-shape our data to get the maximum performance from our machine learning models. In this post, I will go through a set of procedures which you can use to pre-process a data set.
 ---
 
 Before feeding our dataSet into a machine learning algorithm it's absolutely necessary to pre-process the data where we should clean and re-shape our data to get the maximum performance from our machine learning models. 

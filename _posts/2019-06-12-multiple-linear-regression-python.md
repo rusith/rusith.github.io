@@ -4,6 +4,7 @@ title: Multiple Linear Regression With Python
 tags: machineLearning dataScience python
 comments: true
 hasMath: true
+description: Regression is a machine learning model which we can use to predict values by using previously observed data. In simple linear regression, we had to use only one independent variable for the prediction. but in the real world often a dependent variable is dependent upon several variables.
 ---
 
 <div class="post-links-box">

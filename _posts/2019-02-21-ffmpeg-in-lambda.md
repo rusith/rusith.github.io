@@ -3,6 +3,7 @@ layout: post
 title: Running FFmpeg in AWS Lambda using NodeJS
 tags: programming aws lambda
 comments: true
+description: When you have a requirement to do something on video/ audio files, the tool of choice would be FFmpeg which is free and open source. In this post I go through a way you can setup FFmpeg in AWS Lambda.
 ---
 Okay, no drama. let’s get right to the point.
 
