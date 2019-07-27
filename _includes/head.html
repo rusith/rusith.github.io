@@ -8,6 +8,11 @@
 
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  {% if page.title == "Home" %}
+    <meta name="title" content="{{site.title}}" >
+  {% else %}
+    <meta name="title" content="{{page.title}}" >
+  {% endif %}
   <meta name="description" content="A blog from a tech and art enthusiast from Sri Lanka who tries to share his thoughts and learnings">
   <title>
     {% if page.title == "Home" %}
