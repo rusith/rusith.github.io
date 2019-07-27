@@ -9,8 +9,8 @@ paginate_path: "page:num"
 
 # Setup
 title:            Rusith
-tagline:          'Personal Blog'
-description:      'A blog from a tech and art enthusiast from Sri Lanka who tries to share his thoughts and learnings'
+tagline:          'My Personal Blog'
+description:      'A blog from a tech and art enthusiast'
 url:              https://rusith.me
 baseurl:          /
 
