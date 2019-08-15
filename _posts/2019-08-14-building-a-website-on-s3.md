@@ -7,7 +7,7 @@ description: In this post, I am creating a website and host it on S3 and setup a
 ---
 
 
-<img style="display: block; margin-left:atuto; margin-right: auto;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
+<img style="display: block; margin-left:auto; margin-right: auto; max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
 
 S3 supports static site hosting, In this post, I am going to show you how you can set up a website on S3 and configure
 a development workflow using Gitlab.
