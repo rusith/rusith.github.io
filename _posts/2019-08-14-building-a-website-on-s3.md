@@ -4,7 +4,6 @@ title:  Website on S3 From Scratch With SSL, Continues Integration
 tags: aws
 comments: true
 description: In this post, I am creating creating a website and host it on S3 and setup a continues integration pipeline setup using Gitlab
-published: false
 ---
 
 In this post I am going to show you how I used AWS to create a website and use a CI pipeline to continuously update the 
