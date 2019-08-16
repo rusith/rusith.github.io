@@ -10,7 +10,7 @@ description: In this post, I am creating a website and host it on S3 and setup a
 <img style="display: block; margin-left:auto; margin-right: auto; max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
 
 S3 supports static site hosting, In this post, I am going to show you how you can set up a website on S3 and configure
-a development workflow using Gitlab.
+a deployment workflow using Gitlab.
 
 What we can expect from the site that we gonna create?
 * It should be fast
@@ -229,7 +229,7 @@ This will take some time to get registered.
 
 ---
 
-Okay, now we are mostly done with our AWS setup, now we can go ahead and start setting up our development workflow.
+Okay, now we are mostly done with our AWS setup, now we can go ahead and start setting up our deployment workflow.
 I will keep this website simple with only 4 files,
 
 * error.html
