@@ -65,10 +65,6 @@ First, we have to create a bucket for our website. Make sure to set the domain n
 
 <img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/create-bucket-step-one.jpg">
 
-*In the "Set Permissions" step, make sure you have unchecked the "Block all public access" checkbox*
-
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/creating-bucket-public-access.jpg">
-
 After creating the bucket, It should immediately show up in the S3 home page.
 
 *Click the bucket you just created and go to permissions tab. Click the "Bucket Policy" button and paste the configuration below*
