@@ -7,7 +7,7 @@ description: In this post, I am creating a website and host it on S3 and setup a
 ---
 
 
-<img style="display: block; margin-left:auto; margin-right: auto; max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
+<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
 
 S3 supports static site hosting, In this post, I am going to show you how you can set up a website on S3 and configure
 a deployment workflow using Gitlab.
@@ -63,7 +63,7 @@ First, we have to create a bucket for our website. Make sure to set the domain n
 *Go to S3 home page, and start creating the bucket. put your domain name as the name and choose your preferred region.
 (I am choosing Singapore) and go head*
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/create-bucket-step-one.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/create-bucket-step-one.jpg">
 
 After creating the bucket, It should immediately show up in the S3 home page.
 
@@ -87,14 +87,14 @@ After creating the bucket, It should immediately show up in the S3 home page.
 *And don't forget to replace `yourbucketname` with the name of the bucket you created which has the same name as your domain name.
 And don't forget to save the change.*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/create-bucket-policy.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/create-bucket-policy.jpg">
 
 Now we have to turn on Static Website Hosting in our bucket
 
 *Go to the properties tab and click Static Website Hosting section. Select "Use this bucket to host a website" option and put 
 `index.html` as the "Index Document". you can also put a file name for the "Error Document" and save.*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/bucket-hosting-settings.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/bucket-hosting-settings.jpg">
 
 Okay, as you can see now we have an address (Endpoint) that can be used to access our hosted website.
 Give it a try and it should return a not found response. that is because we don't have an `index.html` file on our website.
@@ -122,7 +122,7 @@ I am going to upload files with the content below.*
 Now if you try the website now, it should return the HTML you have just added. like below. and if you try to access any other file
 It should return the error page.
 
-<img style="max-width: 700px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/simple-html-page.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/simple-html-page.jpg">
 
 #### SSL
 
@@ -134,14 +134,14 @@ this when we are creating the Cloudfront distribution.
  
 *It will ask you for the domain names to cover with the certificate when you are going ahead. make sure you add your domain name and the domain name with `www` prefix*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/adding-domains-to-the-certificate.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/adding-domains-to-the-certificate.jpg">
 
 *And go ahead and select DNS validation as the validation method. and request the certificate*
 
 While you are in the validation step, you can complete it easily by clicking "Create record in Route 53" for each domain name. this will
 automatically add the required CNAME records to your Route 53 hosted zone.
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/certificate-validation.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/certificate-validation.jpg">
 
 And complete the request.
 
@@ -155,11 +155,11 @@ Okay, now our bucket is ready, let's create the Cloudfront distribution for our 
 
 *Copy the URL for our bucket from S3 and paste it **without** the `http://` part into the "Origin Domain Name" input.*
 
-<img style="max-width: 400px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/bucket-url.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/bucket-url.jpg">
 
 *Mark the "Redirect HTTP to HTTPS" option*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/redirect-http-to-https.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/redirect-http-to-https.jpg">
 
 *Change "Compress Objects Automatically" to Yes*
 
@@ -167,14 +167,14 @@ Okay, now our bucket is ready, let's create the Cloudfront distribution for our 
 
 *Select the certificate you created in Certificate Manager as the custom SSL certificate*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cloudfront-settings.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cloudfront-settings.jpg">
 
 *And save changes and wait for it to finish. It will take about 20-30 minutes to deploy the distribution*
 
 After the deployment is done, you can check if the website is working by accessing the domain name provided by 
 the distribution.
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cloudfront-domain.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cloudfront-domain.jpg">
 
 *Also make sure that the SSL is working in that domain.*
 
@@ -186,7 +186,7 @@ We have our domain ready but it is not working as we have not configured it. So 
 
 * Enter the domain name, and keep the type as `Public Hosted Zone` Like below.
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/creating-hosted-zone.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/creating-hosted-zone.jpg">
 
 *And press `Create` to create the hosted zone.*
 Now you will be redirected to the properties page of the newly created hosted zone.
@@ -198,12 +198,12 @@ To do this we just have to Copy the value of the only NS record in the hosted zo
 
 *Select the name server RecordSet and copy the values (each row represent one NS record)*
 
-<img style="max-width: 700px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/copying-ns-records.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/copying-ns-records.jpg">
 
 *Go to your domain name provider website's management screen and add the name server records you just copied one by one.
 Remove the dot at the end of each record if it gives you an error.*
 
-<img style="max-width: 300px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/added-name-servers.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/added-name-servers.jpg">
 
 It will take some time to switch the name servers depending on your domain name provider. You can check if the name server
 records are applied using a tool like <a href="https://network-tools.com/nslookup" target="_blank">NS lookup </a>
@@ -214,12 +214,12 @@ A record that will point to the distribution.
 *Go to the hosted zone you created and create a new RecordSet. keep the name empty, Type should be A, Check the Alias option
 and select the CloudFront distribution you created.*
 
-<img style="max-width: 400px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/a-record-config.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/a-record-config.jpg">
 
 *Also add a new CNAME Record Set to redirect the www subdomain to the root domain So we don't have to configure another 
 bucket for that*
 
-<img style="max-width: 400px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cname-record.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/cname-record.jpg">
 
 This will take some time to get registered.
 
@@ -240,7 +240,7 @@ The first thing we have to do is to create a new repository in Gitlab.
 
 *Go ahead and create a new repository*
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/creating-repository.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/creating-repository.jpg">
 
 In order to access our bucket from Gitlab CI, we will need permissions. for this, we can create a new user 
 for Gitlab CI and assign policies that will allow accessing the bucket we created.
@@ -289,13 +289,13 @@ for Gitlab CI and assign policies that will allow accessing the bucket we create
 *Create a new user. I am going to name it as "S3GitlabUploader". You can use whichever name you like.
 And make sure  Programmatic access is enabled*
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/aws-user-creation.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/aws-user-creation.jpg">
 
 *Select "Attach existing policies directly" and select the policy you created above.*
 
 *Remember to keep a copy of the Access key ID and Secret access key that will be prompted at the end of user creation*
 
-<img style="max-width: 500px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/keys.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/keys.jpg">
 
 
 Now we have the credentials to use the bucket. we can now add these access keys to the repository so we can use those values
@@ -360,8 +360,8 @@ Okay, now our CI pipeline is ready. I now you can continue developing the websit
 It will deploy the code to S3.
 
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/pipelines.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/pipelines.jpg">
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/job.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/job.jpg">
 
-<img style="max-width: 600px;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/final-website.jpg">
+<img  src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/final-website.jpg">
