@@ -1,30 +1,34 @@
-<!-- ---
+---
 layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Person",
+    "name": "Shanaka Rusith",
+    "birthDate": "1996-12-23",
+    "email": "rusith@mail.com",
+    "gender": "male",
+    "jobTitle": "Software Engineer",
+    "knowsLanguage": "Sinhalese and English",
+    "image": "{{site.url}}/public/images/rusith/picture.jpg",
+    "sameAs": [
+      "{{site.fb}}",
+      "{{site.twitter}}",
+      "{{site.linkedin}}"
+    ]
+  }
+</script>
+
+<p>
+  Hi There!
+  <br>
+
+  I am Rusith. I like to learn new things and do experiments. I write some of them in this blog.
+  <br>
+  Professionally, I am a software engineer living in Sri Lanka with 3+ years of experience. Currently working as a full-stack engineer.
+  <br>
+  I like reading (<a href="http://goodreads.com/rusith" target="_blank">Goodreads</a>), watching films (<a href="https://www.imdb.com/user/ur81064939/" target="_blank">IMDB</a>). I like to read non-fiction especially Business Philosophy and Psychology books. and enjoy watching good films especially old ones. 
 </p>
-
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading! -->

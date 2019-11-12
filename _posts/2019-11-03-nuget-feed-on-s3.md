@@ -1,13 +1,18 @@
 ---
 layout: post
 title:  Running a Nuget Feed on S3 with Automated Deployments
-tags: programming dotnet s3 aws
+tags: programming dotnet s3 aws nuget
 comments: true
 description: There are many ways of creating a Nuget feed. but did you know that you can run a Nuget feed on S3 without any computing infrastructure? In this post, I will show you how you can create a Nuget feed on S3 using Sleet and automate the deployment process for packages.
+banner: /public/post-data/2019-11-03-nuget-feed-s3/banner.png
+dateCreated: 2019-11-02
+datePublished: 2019-11-03
+dependencies: AWS
+about: Creating a Nuget feed on an AWS S3 bucket using Sleet
 ---
 
 
-<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}/public/post-data/2019-11-03-nuget-feed-s3/banner.png">
+<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}{{page.banner}}">
 
 Whenever you wanted to create a separate Nuget feed for your Nuget packages, there are Nuber of ways to do that. Most of them include some computing. which means you have to provision a  server and run a Nuget application on a computer. But its also possible to create a static Nuget feed on a cloud file system like S3. One way to do this is by using the <a target="_blank" href="https://github.com/emgarten/Sleet">Sleet</a> tool. which is an open-source and free application.
 

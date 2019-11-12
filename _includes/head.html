@@ -13,7 +13,12 @@
   {% else %}
     <meta name="description" content="{{page.description}}">
   {% endif %}
-  <meta name="robots" content="index,follow" >
+  {% if page.layout == "tagpage"%}
+    <meta name="robots" content="noindex">
+  {% else %}
+    <meta name="robots" content="index,follow" >
+  {% endif %}
+  
   <title>
     {% if page.title == "Home" %}
       {{ site.title }} &middot; {{ site.tagline }}
