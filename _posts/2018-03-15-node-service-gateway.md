@@ -4,6 +4,10 @@ title: A Service Gateway Using NodeJS
 tags: programming javascript micro-service web
 comments: true
 description: In this post I am writing a simple and minimal service gateway using JavaScript and NodeJS which can handle authentication , authorization.
+dateCreated: 2018-03-15
+datePublished: 2018-03-15
+dependencies: NodeJS
+about: Creating a service gateway (API gateway) using JavaScript and NodeJS
 ---
 
 This is an API gateway implemented using [Node JS Proxy](https://www.npmjs.com/package/httpp-proxy) and [Redis](https://www.npmjs.com/package/redis).

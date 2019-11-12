@@ -23,7 +23,7 @@
     {% if page.layout == "post" %}
       { 
         "@context": "https://schema.org", 
-        {% if page.nonTech %}
+        {% if page.isNonTech %}
         "@type": "Article",
         {% else %}
         "@type": "TechArticle",
@@ -71,7 +71,7 @@
         },
         "copyrightYear": "2019"
       }
-    {% elsif page.title == "About"%}
+    {% elsif page.isAbout %}
       {
         "@context": "http://schema.org",
         "@type": "Person",
@@ -88,7 +88,7 @@
           "{{site.linkedin}}"
         ]
       }
-    {% else %}
+    {% elsif page.isHome %}
       {
         "@context": "http://schema.org",
         "@type": "Blog",

@@ -4,6 +4,10 @@ title: Genie - An Efficient Way to Access Data
 tags: programming csharp genie rdbms
 comments: true
 description: Almost all the time we need a database to run our apps. most of the time, these databases are relational databases. as everyone knows we must use SQL to access these databases. writing an SQL query for every database call is a pain and no one does that these days. instead, we use something called ORMs (Object Relational Mappers). we can use an ORM to access databases without writing SQL or worrying about mapping relations to objects. there are a lot of ORM implementations for every popular language.
+dateCreated: 2018-03-15
+datePublished: 2018-03-15
+dependencies: .Net
+about: Accessing data on a realational database using Genie
 ---
 
 Almost all the time we need a database to run our apps. most of the time, these databases are relational databases. as everyone knows we must use SQL to access these databases. writing an SQL query for every database call is a pain and no one does that these days. instead, we use something called ORMs (Object Relational Mappers). we can use an ORM to access databases without writing SQL or worrying about mapping relations to objects. there are a lot of ORM implementations for every popular language.
@@ -12,7 +16,7 @@ Genie is a simple code generator which generates an ORM with all essential funct
 
 ## Installing Genie
 
-Genie is a free and open source software. you can download the latest release for Linux/ Windows or Mac from [here](https://rusith.me/Genie)
+Genie is a free and open source software. you can download the latest release for Linux/ Windows or Mac from [here](https://github.com/Divicent/Genie)
 
 After downloading, extract the zip to some folder and add the path to the folder to the PATH global variable. for Linux users make the GenieCLI file executable by running the command `chmod +x GenieCLI`
 

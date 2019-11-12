@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+isAbout: true
 ---
 <p>
   Hi There!
