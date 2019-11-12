@@ -4,59 +4,6 @@ layout: default
 
 <link href="{{ site.url }}/public/css/post.css" />
 
-<script type="application/ld+json">
-  { 
-   "@context": "https://schema.org", 
-   {% if page.nonTech %}
-    "@type": "Article",
-   {% else %}
-    "@type": "TechArticle",
-   {% endif %}
-    "headline": "{{ page.title }}",
-   {% if page.banner %}
-    "image": "{{ site.url }}{{ page.banner }}",
-   {% endif %}
-   {% if page.proficiencyLevel %}
-    "proficiencyLevel": "{{ page.proficiencyLevel }}",
-   {% endif %}
-   {% if page.dependencies %}
-    "dependencies": "{{ page.dependencies }}",
-   {% endif %}
-    "author": {
-      "@type": "Person",
-      "name": "Shanaka Rusith",
-      "url": "{{ site.url }}/pages/about"
-    },
-   "keywords": "{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }},{% endfor %}", 
-   "wordcount": "{{ page.content | number_of_words }}",
-   "url": "{{ site.url }}{{  page.url }}",
-   "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "{{ site.url }}"
-   },
-   {% if page.datePublished %}
-    "dateModified": "{{ page.datePublished }}",
-   {% endif %}
-   {% if page.dateCreated %}
-    "dateCreated": "{{ page.dateCreated }}",
-   {% endif %}
-   {% if page.dateModified %}
-     "dateModified": "{{ page.dateModified }}",
-   {% endif %}
-    "description": "{{ page.description }}",
-   {% if page.about %}
-    "about": "{{ page.about }}",
-   {% endif %}
-    "accessMode": "textual",
-    "copyrightHolder": {
-      "@type": "Person",
-      "name": "Shanaka Rusith",
-      "url": "{{ site.url }}/pages/about"
-    },
-    "copyrightYear": "2019"
-  }
-</script>
-
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <div>

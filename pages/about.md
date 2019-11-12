@@ -2,26 +2,6 @@
 layout: page
 title: About
 ---
-
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Person",
-    "name": "Shanaka Rusith",
-    "birthDate": "1996-12-23",
-    "email": "rusith@mail.com",
-    "gender": "male",
-    "jobTitle": "Software Engineer",
-    "knowsLanguage": "Sinhalese and English",
-    "image": "{{site.url}}/public/images/rusith/picture.jpg",
-    "sameAs": [
-      "{{site.fb}}",
-      "{{site.twitter}}",
-      "{{site.linkedin}}"
-    ]
-  }
-</script>
-
 <p>
   Hi There!
   <br>
