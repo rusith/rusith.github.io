@@ -73,10 +73,14 @@
         },
         "copyrightYear": "2019",
         "publisher": {
-          "@type": "Person",
+          "@type": "Organization",
           "name": "Shanaka Rusith",
-          "url": "{{ site.url }}/pages/about"
-        }
+          "url": "{{ site.url }}/pages/about",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "{{site.url}}/public/images/rusith/picture.jpg"
+          }
+        },
       }
     {% elsif page.isAbout %}
       {
@@ -132,9 +136,13 @@
                   "url": "{{ site.url }}/pages/about"
                 },
                 "publisher": {
-                  "@type": "Person",
+                  "@type": "Organization",
                   "name": "Shanaka Rusith",
-                  "url": "{{ site.url }}/pages/about"
+                  "url": "{{ site.url }}/pages/about",
+                  "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{site.url}}/public/images/rusith/picture.jpg"
+                  }
                 },
                 "mainEntityOfPage": {
                   "@type": "WebPage",

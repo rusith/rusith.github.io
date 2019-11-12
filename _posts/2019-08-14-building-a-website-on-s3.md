@@ -5,6 +5,7 @@ tags: aws programming web
 comments: true
 description: In this post, I am creating a website and host it on S3 and setup a continuous integration pipeline setup using Gitlab
 dateCreated: 2019-08-05
+dateModified: 2019-08-05
 datePublished: 2019-08-05
 dependencies: AWS
 about: Demonstrates how to create and publish a website on S3 and create a CI setup for automatic deployments

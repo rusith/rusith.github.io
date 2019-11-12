@@ -6,6 +6,7 @@ comments: true
 isNonTech: true
 description: Sri Lanka is one of the most religious countries in the world. 70% of Sri Lankans say that they are Buddhists. and Buddhism has an influence on most aspects of society in one way or another. It's undeniable that the Literature of the country, on the other hand, has shaped by the Buddhist ideologies. Even the latest Literary works depict that influence. This has been good for society so far as it helped to define the moral values of it.
 dateCreated: 2019-04-02
+dateModified: 2019-04-02
 datePublished: 2019-04-02
 about: Talks about recent incidents of religious intervention on literature in Sri Lanka
 ---

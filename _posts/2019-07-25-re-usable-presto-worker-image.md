@@ -5,6 +5,7 @@ tags: programming bigdata aws cloud
 comments: true
 description: Creating a machine image that can be used to spin up presto worker instances without configuring each one. this could be helpful when you don't want to use any  orchestration tool
 dateCreated: 2019-07-25
+dateModified: 2019-07-25
 datePublished: 2019-07-25
 dependencies: AWS
 about: Demonstrates how to create a re-usable Presto worker image using a AWS EC2 instance

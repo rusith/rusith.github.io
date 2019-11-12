@@ -6,6 +6,7 @@ comments: true
 hasMath: true
 description: Regression models are used to predict real values such as salary, spending, income. Simple linear regression is a model of regression which is used to identify the correlation between two variables and possibly predict the dependent variable by using the independent variable.This will enable us to establish a relationship between two attributes such as Income and Spending and we can use what we know about the relationship to forecast unobserved values. 
 dateCreated: 2019-05-07
+dateModified: 2019-05-07
 datePublished: 2019-05-07
 dependencies: R
 about: Basic introduction on Simple Linear Regression using R language

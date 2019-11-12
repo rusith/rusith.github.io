@@ -6,6 +6,7 @@ comments: true
 hasMath: true
 description: Machine learning can significantly improve the performance of a system. This could be very beneficial for businesses or any other application. So if someone comes to you and suggest you a business idea that involves machine learning, how do you decide that a machine learning implementation is feasible with the particular idea?
 dateCreated: 2019-05-07
+dateModified: 2019-05-07
 datePublished: 2019-05-07
 about: Basic understanding of machine learning. what is the essence of machine learning
 ---

@@ -5,6 +5,7 @@ tags: programming csharp genie rdbms
 comments: true
 description: Almost all the time we need a database to run our apps. most of the time, these databases are relational databases. as everyone knows we must use SQL to access these databases. writing an SQL query for every database call is a pain and no one does that these days. instead, we use something called ORMs (Object Relational Mappers). we can use an ORM to access databases without writing SQL or worrying about mapping relations to objects. there are a lot of ORM implementations for every popular language.
 dateCreated: 2018-03-15
+dateModified: 2018-03-15
 datePublished: 2018-03-15
 dependencies: .Net
 about: Accessing data on a realational database using Genie

@@ -6,6 +6,7 @@ comments: true
 hasMath: false
 description: Form validation in react is bit tricky. This is an attempt to make it bit easy by using react hooks. here we write few custom hooks to create a re-usable validation logic that can be used in any form.
 dateCreated: 2019-06-24
+dateModified: 2019-06-24
 datePublished: 2019-06-24
 dependencies: React
 about: A way to create a re-usable form validation logic using React hooks
