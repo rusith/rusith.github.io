@@ -31,6 +31,8 @@
         "headline": "{{ page.title }}",
         {% if page.banner %}
         "image": "{{ site.url }}{{ page.banner }}",
+        {% else %}
+        "image": "{{ site.url }}/public/images/banner/default.jpg",
         {% endif %}
         {% if page.proficiencyLevel %}
         "proficiencyLevel": "{{ page.proficiencyLevel }}",
@@ -51,7 +53,7 @@
           "@id": "{{ site.url }}"
         },
         {% if page.datePublished %}
-        "dateModified": "{{ page.datePublished }}",
+        "datePublished": "{{ page.datePublished }}",
         {% endif %}
         {% if page.dateCreated %}
         "dateCreated": "{{ page.dateCreated }}",
@@ -69,7 +71,12 @@
           "name": "Shanaka Rusith",
           "url": "{{ site.url }}/pages/about"
         },
-        "copyrightYear": "2019"
+        "copyrightYear": "2019",
+        "publisher": {
+          "@type": "Person",
+          "name": "Shanaka Rusith",
+          "url": "{{ site.url }}/pages/about"
+        }
       }
     {% elsif page.isAbout %}
       {
@@ -106,7 +113,7 @@
                 "keywords": "{% for tag in post.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }},{% endfor %}", 
                 "url": "{{ site.url }}{{  post.url }}",
                 {% if post.datePublished %}
-                  "dateModified": "{{ post.datePublished }}",
+                  "datePublished": "{{ post.datePublished }}",
                 {% endif %}
                 {% if post.dateCreated %}
                   "dateCreated": "{{ post.dateCreated }}",
@@ -116,12 +123,23 @@
                 {% endif %}
                 {% if post.banner %}
                   "image": "{{ site.url }}{{ post.banner }}",
+                {% else %}
+                  "image": "{{ site.url }}/public/images/banner/default.jpg",
                 {% endif %}
                 "author": {
                   "@type": "Person",
                   "name": "Shanaka Rusith",
                   "url": "{{ site.url }}/pages/about"
-                }
+                },
+                "publisher": {
+                  "@type": "Person",
+                  "name": "Shanaka Rusith",
+                  "url": "{{ site.url }}/pages/about"
+                },
+                "mainEntityOfPage": {
+                  "@type": "WebPage",
+                  "@id": "{{ site.url }}"
+                },
               },
           {% endfor %}
               {}
