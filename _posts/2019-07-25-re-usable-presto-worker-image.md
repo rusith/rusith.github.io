@@ -9,6 +9,7 @@ dateModified: 2019-07-25
 datePublished: 2019-07-25
 dependencies: AWS
 about: Demonstrates how to create a re-usable Presto worker image using a AWS EC2 instance
+banner: /public/post-data/2019-07-25-re-usable-presto-worker/5-workers-dashboard.png
 ---
 
 

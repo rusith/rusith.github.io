@@ -1,0 +1,136 @@
+<script type="application/ld+json">
+  {% if page.layout == "post" %}
+    { 
+      "@context": "https://schema.org", 
+      {% if page.isNonTech %}
+      "@type": "Article",
+      {% else %}
+      "@type": "TechArticle",
+      {% endif %}
+      "headline": "{{ page.title }}",
+      {% if page.banner %}
+      "image": "{{ site.url }}{{ page.banner }}",
+      {% else %}
+      "image": "{{ site.url }}/public/images/banner/default.jpg",
+      {% endif %}
+      {% if page.proficiencyLevel %}
+      "proficiencyLevel": "{{ page.proficiencyLevel }}",
+      {% endif %}
+      {% if page.dependencies %}
+      "dependencies": "{{ page.dependencies }}",
+      {% endif %}
+      "author": {
+        "@type": "Person",
+        "name": "Shanaka Rusith",
+        "url": "{{ site.url }}/pages/about"
+      },
+      "keywords": "{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }},{% endfor %}", 
+      "wordcount": "{{ page.content | number_of_words }}",
+      "url": "{{ site.url }}{{  page.url }}",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ site.url }}"
+      },
+      {% if page.datePublished %}
+      "datePublished": "{{ page.datePublished }}",
+      {% endif %}
+      {% if page.dateCreated %}
+      "dateCreated": "{{ page.dateCreated }}",
+      {% endif %}
+      {% if page.dateModified %}
+        "dateModified": "{{ page.dateModified }}",
+      {% endif %}
+      "description": "{{ page.description }}",
+      {% if page.about %}
+      "about": "{{ page.about }}",
+      {% endif %}
+      "accessMode": "textual",
+      "copyrightHolder": {
+        "@type": "Person",
+        "name": "Shanaka Rusith",
+        "url": "{{ site.url }}/pages/about"
+      },
+      "copyrightYear": "2019",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Shanaka Rusith",
+        "url": "{{ site.url }}/pages/about",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{site.url}}/public/images/rusith/picture.jpg"
+        }
+      }
+    }
+  {% elsif page.isAbout %}
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Shanaka Rusith",
+      "birthDate": "1996-12-23",
+      "email": "rusith@mail.com",
+      "gender": "male",
+      "jobTitle": "Software Engineer",
+      "knowsLanguage": "Sinhalese and English",
+      "image": "{{site.url}}/public/images/rusith/picture.jpg",
+      "sameAs": [
+        "{{site.fb}}",
+        "{{site.twitter}}",
+        "{{site.linkedin}}"
+      ]
+    }
+  {% elsif page.isHome %}
+    {
+      "@context": "http://schema.org",
+      "@type": "Blog",
+      "author": {
+          "@type": "Person",
+          "name": "Shanaka Rusith",
+          "url": "{{ site.url }}/pages/about"
+      },
+      
+      "blogPost": [
+        {% for post in site.posts %}
+          {
+              "@type": "BlogPosting",
+              "headline": "{{ post.title }}",
+              "keywords": "{% for tag in post.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }},{% endfor %}", 
+              "url": "{{ site.url }}{{  post.url }}",
+              {% if post.datePublished %}
+                "datePublished": "{{ post.datePublished }}",
+              {% endif %}
+              {% if post.dateCreated %}
+                "dateCreated": "{{ post.dateCreated }}",
+              {% endif %}
+              {% if post.dateModified %}
+                "dateModified": "{{ post.dateModified }}",
+              {% endif %}
+              {% if post.banner %}
+                "image": "{{ site.url }}{{ post.banner }}",
+              {% else %}
+                "image": "{{ site.url }}/public/images/banner/default.jpg",
+              {% endif %}
+              "author": {
+                "@type": "Person",
+                "name": "Shanaka Rusith",
+                "url": "{{ site.url }}/pages/about"
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "Shanaka Rusith",
+                "url": "{{ site.url }}/pages/about",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "{{site.url}}/public/images/rusith/picture.jpg"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "{{ site.url }}"
+              }
+            },
+        {% endfor %}
+            {}
+        ]
+    }
+  {% endif %}
+</script>

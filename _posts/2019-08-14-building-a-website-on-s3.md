@@ -9,10 +9,11 @@ dateModified: 2019-08-05
 datePublished: 2019-08-05
 dependencies: AWS
 about: Demonstrates how to create and publish a website on S3 and create a CI setup for automatic deployments
+banner: /public/post-data/2019-08-14-building-a-website-on-s3/banner.png
 ---
 
 
-<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}/public/post-data/2019-08-14-building-a-website-on-s3/banner.png">
+<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}{{page.banner}}">
 
 S3 supports static site hosting, In this post, I am going to show you how you can set up a website on S3 and configure
 a deployment workflow using Gitlab.
