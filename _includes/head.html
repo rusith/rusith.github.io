@@ -11,6 +11,11 @@
   {% else %}
     <meta name="description" content="{{page.description}}">
     <link rel="canonical" href="{{ site.url }}{{  page.url }}">
+    <meta property="og:title" content="{{page.title}}">
+    <meta property="og:description" content="{{page.description}}">
+    <meta property="og:image" content="http://euro-travel-example.com/thumbnail.jpg">
+    <meta property="og:url" content="{{ site.url }}{{  page.url }}">
+    <meta name="twitter:card" content="summary_large_image">
   {% endif %}
   {% if page.layout == "tagpage"%}
     <meta name="robots" content="noindex">
