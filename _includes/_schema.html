@@ -22,14 +22,14 @@
       "author": {
         "@type": "Person",
         "name": "Shanaka Rusith",
-        "url": "{{ site.url }}/pages/about"
+        "url": "{{ site.url }}/about"
       },
       "keywords": "{% for tag in page.tags %}{% capture tag_name %}{{ tag }}{% endcapture %} {{ tag_name }},{% endfor %}", 
       "wordcount": "{{ page.content | number_of_words }}",
       "url": "{{ site.url }}{{  page.url }}",
       "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "{{ site.url }}"
+        "@id": "{{ site.url }}{{  page.url }}"
       },
       {% if page.datePublished %}
       "datePublished": "{{ page.datePublished }}",
@@ -48,13 +48,13 @@
       "copyrightHolder": {
         "@type": "Person",
         "name": "Shanaka Rusith",
-        "url": "{{ site.url }}/pages/about"
+        "url": "{{ site.url }}/about"
       },
       "copyrightYear": "2019",
       "publisher": {
         "@type": "Organization",
         "name": "Shanaka Rusith",
-        "url": "{{ site.url }}/pages/about",
+        "url": "{{ site.url }}/about",
         "logo": {
           "@type": "ImageObject",
           "url": "{{site.url}}/public/images/rusith/picture.jpg"
@@ -85,9 +85,8 @@
       "author": {
           "@type": "Person",
           "name": "Shanaka Rusith",
-          "url": "{{ site.url }}/pages/about"
+          "url": "{{ site.url }}/about"
       },
-      
       "blogPost": [
         {% for post in site.posts %}
           {
@@ -112,12 +111,12 @@
               "author": {
                 "@type": "Person",
                 "name": "Shanaka Rusith",
-                "url": "{{ site.url }}/pages/about"
+                "url": "{{ site.url }}/about"
               },
               "publisher": {
                 "@type": "Organization",
                 "name": "Shanaka Rusith",
-                "url": "{{ site.url }}/pages/about",
+                "url": "{{ site.url }}/about",
                 "logo": {
                   "@type": "ImageObject",
                   "url": "{{site.url}}/public/images/rusith/picture.jpg"
