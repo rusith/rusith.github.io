@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: angular"
-tag: angular
+title: "Tag: testing"
+tag: testing
 sitemap: false
 ---

@@ -2,6 +2,7 @@
 layout: page
 title: About
 isAbout: true
+permalink: /about
 ---
 <p>
   Hi There!
