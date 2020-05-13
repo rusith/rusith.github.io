@@ -13,7 +13,7 @@ banner: /public/post-data/2019-08-14-building-a-website-on-s3/banner.png
 ---
 
 
-<img style="display: block; margin-left:auto; margin-right: auto;" src="{{ site.url }}{{page.banner}}">
+<img class="banner" src="{{ site.url }}{{page.banner}}">
 
 S3 supports static site hosting, In this post, I am going to show you how you can set up a website on S3 and configure
 a deployment workflow using Gitlab.
