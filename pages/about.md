@@ -14,8 +14,8 @@ permalink: /about
     display: flex;
   }
 
-  .image-section .img {
-    width: 100%;
+  .image-section img {
+    object-fit: contain;
   }
   .info-section {
     display: flex;
